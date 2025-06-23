@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "merged",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "としょんか", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.173059, 35.515452 ] } },
+{ "type": "Feature", "properties": { "name": "図書館", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.172866, 35.515498 ] } },
+{ "type": "Feature", "properties": { "name": "図書館", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.173005, 35.515426 ] } },
+{ "type": "Feature", "properties": { "name": "図書館", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.173011, 35.515631 ] } },
+{ "type": "Feature", "properties": { "name": "図書館", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.173043, 35.515387 ] } },
+{ "type": "Feature", "properties": { "name": "図書館", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.173062, 35.515503 ] } },
+{ "type": "Feature", "properties": { "name": "図書館", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.17303, 35.515436 ] } },
+{ "type": "Feature", "properties": { "name": "図書館", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.17307, 35.515372 ] } }
+]
+}

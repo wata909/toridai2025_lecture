@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>地理学概論第3回課題 統合版</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css" />
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+  <!-- MarkerCluster -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+  <!-- Heatmap -->
+  <script src="https://cdn.jsdelivr.net/gh/Leaflet/Leaflet.heat/dist/leaflet-heat.js"></script>
+  <!-- Hash plugin -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-hash/0.2.1/leaflet-hash.min.js"></script>
+  <style>
+    html, body { height: 100vh; margin: 0; padding: 0; }
+    #map { height: 100%; width: 100%; }
+    #layer-selector {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      z-index: 1000;
+      background: white;
+      padding: 5px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <div id="layer-selector">
+    <label for="geojson-select">レイヤ選択:</label>
+    <select id="geojson-select" onchange="loadGeoJSON(this.value)">
+      <option value="all.geojson">すべて表示</option>
+      <option value="ATM.geojson">ATM</option>
+      <option value="その他.geojson">その他</option>
+      <option value="飲食.geojson">飲食</option>
+      <option value="運動.geojson">運動</option>
+      <option value="学生会館.geojson">学生会館</option>
+      <option value="共通教育棟.geojson">共通教育棟</option>
+      <option value="工学部棟.geojson">工学部棟</option>
+      <option value="図書館.geojson">図書館</option>
+      <option value="地域学部棟.geojson">地域学部棟</option>
+      <option value="農学部棟.geojson">農学部棟</option>
+      <option value="噴水.geojson">噴水</option>
+    </select>
+  </div>
+
+  <script>
+    const map = L.map('map').setView([35.5180, 134.1750], 17);
+    const gsi_std = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
+      maxZoom: 18, attribution: '地理院地図'
+    }).addTo(map);
+    const gsi_ort = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/{z}/{x}/{y}.jpg', {
+      maxZoom: 18, attribution: '航空写真'
+    });
+    const gsi_old = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/gazo1/{z}/{x}/{y}.jpg', {
+      maxZoom: 18, attribution: '旧航空写真'
+    });
+
+    L.control.layers(
+      { '標準': gsi_std, '航空': gsi_ort, '旧航空': gsi_old },
+      {}, { collapsed: false }
+    ).addTo(map);
+    new L.Hash(map);
+
+    let currentCluster = null;
+    let currentPoints = [];
+    let currentHeat = null;
+
+    async function loadGeoJSON(filename) {
+      // 削除
+      if (currentCluster) map.removeLayer(currentCluster);
+      if (currentHeat) map.removeLayer(currentHeat);
+      currentPoints.forEach(p => map.removeLayer(p));
+      currentPoints = [];
+
+      try {
+        const res = await fetch(filename);
+        const geojson = await res.json();
+
+        const heatCoords = [];
+        const clusterGroup = L.markerClusterGroup({ disableClusteringAtZoom: 18 });
+        const pointList = [];
+
+        const geoLayer = L.geoJSON(geojson, {
+          pointToLayer: (feature, latlng) => {
+            const props = feature.properties || {};
+            let marker;
+            if (props._iconUrl) {
+              marker = L.marker(latlng, {
+                icon: L.icon({
+                  iconUrl: props._iconUrl,
+                  iconSize: props._iconSize || [20, 20],
+                  iconAnchor: props._iconAnchor || [10, 10]
+                })
+              });
+            } else {
+              marker = L.marker(latlng);
+            }
+            const name = props.name || "名称なし";
+            marker.bindPopup(`<strong>${name}</strong>`);
+            heatCoords.push([latlng.lat, latlng.lng]);
+            clusterGroup.addLayer(marker);
+            pointList.push(marker);
+            return marker;
+          }
+        });
+
+        currentCluster = clusterGroup;
+        currentPoints = pointList;
+
+        updateDisplayByZoom();
+
+        // 再登録（以前のものが残っていると複数回呼ばれる）
+        map.off('zoomend', updateDisplayByZoom);
+        map.on('zoomend', updateDisplayByZoom);
+
+        // 初期描画
+        document.getElementById('geojson-select').value = filename;
+      } catch (err) {
+        console.error("GeoJSONの読み込みに失敗:", err);
+        alert("GeoJSONの読み込みに失敗しました。");
+      }
+    }
+
+    function updateDisplayByZoom() {
+      const zoom = map.getZoom();
+
+      if (currentCluster) map.removeLayer(currentCluster);
+      if (currentHeat) map.removeLayer(currentHeat);
+      currentPoints.forEach(p => map.removeLayer(p));
+
+      if (zoom < 18) {
+        // クラスタとヒートマップを表示
+        if (currentCluster) map.addLayer(currentCluster);
+        currentHeat = L.heatLayer(currentCluster.getLayers().map(m => {
+          const latlng = m.getLatLng();
+          return [latlng.lat, latlng.lng];
+        }), {
+          minOpacity: 0.5,
+          blur: 15,
+          radius: 25,
+          gradient: { 0.2: 'blue', 0.4: 'cyan', 0.6: 'lime', 0.8: 'yellow', 1.0: 'red' }
+        });
+        currentHeat.addTo(map);
+      } else {
+        // ポイント単体表示
+        currentPoints.forEach(p => p.addTo(map));
+      }
+    }
+
+    // 初期読み込み
+    loadGeoJSON('all.geojson');
+  </script>
+</body>
+</html>

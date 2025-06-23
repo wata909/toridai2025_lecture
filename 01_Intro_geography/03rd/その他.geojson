@@ -1,0 +1,23 @@
+{
+"type": "FeatureCollection",
+"name": "merged",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "ｔｈｂ", "_markerType": "DivIcon", "_html": "　" }, "geometry": { "type": "Point", "coordinates": [ 134.174652, 35.517419 ] } },
+{ "type": "Feature", "properties": { "name": "アゴラ", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.173749, 35.515452 ] } },
+{ "type": "Feature", "properties": { "name": "アゴラ", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.173724, 35.515437 ] } },
+{ "type": "Feature", "properties": { "name": "アゴラ", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.173746, 35.51545 ] } },
+{ "type": "Feature", "properties": { "name": "アゴラ", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.173746, 35.515439 ] } },
+{ "type": "Feature", "properties": { "name": "アゴラ", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.173724, 35.515478 ] } },
+{ "type": "Feature", "properties": { "name": "いい景色", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.163315, 35.513813 ] } },
+{ "type": "Feature", "properties": { "name": "湖山神社", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.178947, 35.512412 ] } },
+{ "type": "Feature", "properties": { "name": "湖山神社", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.178947, 35.512412 ] } },
+{ "type": "Feature", "properties": { "name": "広場", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.173751, 35.51543 ] } },
+{ "type": "Feature", "properties": { "name": "校門", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.174615, 35.517413 ] } },
+{ "type": "Feature", "properties": { "name": "正門", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.174606, 35.517398 ] } },
+{ "type": "Feature", "properties": { "name": "鳥取スクランブル交差点", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.176701, 35.519059 ] } },
+{ "type": "Feature", "properties": { "name": "鳥取スクランブル交差点", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.176701, 35.519059 ] } },
+{ "type": "Feature", "properties": { "name": "鳥取大学前駅", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.174375, 35.518108 ] } },
+{ "type": "Feature", "properties": { "name": "百穂の庭", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.172072, 35.515168 ] } }
+]
+}

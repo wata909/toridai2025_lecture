@@ -1,0 +1,3281 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.17263,
+          35.515832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174207,
+          35.515496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "正門",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174606,
+          35.517398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172643,
+          35.515818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "アゴラ",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173749,
+          35.515452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "百穂の庭",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172072,
+          35.515168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "農学部棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.171782,
+          35.515424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "図書館",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172866,
+          35.515498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174105,
+          35.515664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "地域学部棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173944,
+          35.516323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "工学部棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172442,
+          35.516354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "アゴラ",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173724,
+          35.515437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ATM",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173467,
+          35.515629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172651,
+          35.515808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174196,
+          35.515489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174201,
+          35.515518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172624,
+          35.51586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "アゴラ",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173746,
+          35.51545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172651,
+          35.515826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.17425,
+          35.515502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172614,
+          35.515832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174196,
+          35.515505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174201,
+          35.515465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.17264,
+          35.515828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "農学部棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.171777,
+          35.515361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "図書館",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173005,
+          35.515426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "工学部棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172431,
+          35.516622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.17263,
+          35.515828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174201,
+          35.515492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "農学部棟3号館",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.171278,
+          35.514452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "来週大会",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174781,
+          35.514701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "図書館",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173011,
+          35.515631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "学生会館",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173595,
+          35.514863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "農学部棟",
+        "_markerType": "CircleMarker",
+        "_color": "#000000",
+        "_opacity": 0.5,
+        "_weight": 3,
+        "_fillColor": "#ff0000",
+        "_fillOpacity": 0.5,
+        "_radius": 129.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.171712,
+          35.515131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "CircleMarker",
+        "_color": "#000000",
+        "_opacity": 0.5,
+        "_weight": 3,
+        "_fillColor": "#ff0000",
+        "_fillOpacity": 0.5,
+        "_radius": 116.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174132,
+          35.515452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.17263,
+          35.515828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "広場",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173751,
+          35.51543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ATM",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173483,
+          35.515557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.17263,
+          35.515828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174191,
+          35.515487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "としょんか",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173059,
+          35.515452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "C棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.17451,
+          35.515317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172635,
+          35.515828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174201,
+          35.515483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "農学部棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.171857,
+          35.51516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "図書館",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173043,
+          35.515387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "鳥取大学前駅",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174375,
+          35.518108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "今を生きろ",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.171941,
+          35.51938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "鹿野",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.175494,
+          35.517403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "スタ粋跡地",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.175065,
+          35.518044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "地域学部",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174082,
+          35.516358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174168,
+          35.515532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.17264,
+          35.515819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.17411,
+          35.515644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172624,
+          35.515823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "校門",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174615,
+          35.517413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "農学部棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.171863,
+          35.515382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172635,
+          35.515828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "アゴラ",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173746,
+          35.515439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "農学部棟入口",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.171798,
+          35.515448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_color": "#000000",
+        "_opacity": 0.5,
+        "_weight": 3,
+        "_fillColor": "#ff0000",
+        "_fillOpacity": 0.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              134.174733,
+              35.516264
+            ],
+            [
+              134.175214,
+              35.515109
+            ],
+            [
+              134.175991,
+              35.51524
+            ],
+            [
+              134.175605,
+              35.516366
+            ],
+            [
+              134.174733,
+              35.516264
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172646,
+          35.515831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育等",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174223,
+          35.515492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "図書館",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173062,
+          35.515503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "農学部棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.171823,
+          35.51535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟C棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174464,
+          35.515304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ATM",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173497,
+          35.515572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172633,
+          35.515829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "学食",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173252,
+          35.514791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172648,
+          35.515822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172633,
+          35.515832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174194,
+          35.515496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ATM",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173524,
+          35.515561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172635,
+          35.515841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174201,
+          35.515496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "鳥取スクランブル交差点",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.176701,
+          35.519059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "湖山神社",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.178947,
+          35.512412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "いい景色",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.163315,
+          35.513813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "鳥取スクランブル交差点",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.176701,
+          35.519059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "湖山神社",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.178947,
+          35.512412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_color": "#000000",
+        "_opacity": 0.5,
+        "_weight": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            134.173406,
+            35.515663
+          ],
+          [
+            134.173315,
+            35.516065
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_color": "#9900ff",
+        "_opacity": 0.5,
+        "_weight": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            134.17339,
+            35.515672
+          ],
+          [
+            134.17332,
+            35.516034
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_color": "#9900ff",
+        "_opacity": 0.5,
+        "_weight": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            134.173347,
+            35.516052
+          ],
+          [
+            134.174522,
+            35.517231
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_color": "#9900ff",
+        "_opacity": 0.5,
+        "_weight": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            134.172329,
+            35.515994
+          ],
+          [
+            134.171804,
+            35.516168
+          ],
+          [
+            134.171659,
+            35.516989
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.17263,
+          35.515834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育等",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174218,
+          35.515446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ATM",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173531,
+          35.51559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "図書館",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.17303,
+          35.515436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育塔",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174414,
+          35.51531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "第一体育館",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174582,
+          35.514544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "工学部棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172415,
+          35.516657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "農学部棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.171868,
+          35.51511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "図書館",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.17307,
+          35.515372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.17418,
+          35.515496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "地域学物棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173987,
+          35.516107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174187,
+          35.515449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "球場",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.169906,
+          35.511071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ゆうちょATM",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173493,
+          35.515657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172624,
+          35.515854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "アゴラ",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173724,
+          35.515478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.17264,
+          35.515828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "生協",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/081.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173531,
+          35.514791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/082.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174196,
+          35.515483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172639,
+          35.515834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育C棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174459,
+          35.515295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "学生会館",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173332,
+          35.514758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172637,
+          35.515834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174193,
+          35.51548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.17264,
+          35.515836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "学食",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173284,
+          35.514797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.17264,
+          35.515841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174201,
+          35.515505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172653,
+          35.515823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174241,
+          35.515496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172657,
+          35.515823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "工学部棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172453,
+          35.516531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_color": "#3388ff",
+        "_opacity": 1,
+        "_weight": 3,
+        "_fillColor": "#3388ff",
+        "_fillOpacity": 0.2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              134.174173,
+              35.518402
+            ],
+            [
+              134.174071,
+              35.518154
+            ],
+            [
+              134.174554,
+              35.518009
+            ],
+            [
+              134.17464,
+              35.518171
+            ],
+            [
+              134.174173,
+              35.518402
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "_color": "#3388ff",
+        "_opacity": 1,
+        "_weight": 3,
+        "_fillColor": "#3388ff",
+        "_fillOpacity": 0.2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              134.171789,
+              35.518424
+            ],
+            [
+              134.170555,
+              35.516608
+            ],
+            [
+              134.170781,
+              35.515509
+            ],
+            [
+              134.170078,
+              35.515382
+            ],
+            [
+              134.169858,
+              35.514273
+            ],
+            [
+              134.169906,
+              35.513164
+            ],
+            [
+              134.172524,
+              35.513304
+            ],
+            [
+              134.175537,
+              35.513569
+            ],
+            [
+              134.175999,
+              35.513372
+            ],
+            [
+              134.177039,
+              35.514787
+            ],
+            [
+              134.176957,
+              35.51604
+            ],
+            [
+              134.176977,
+              35.516788
+            ],
+            [
+              134.171789,
+              35.518424
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ｔｈｂ",
+        "_markerType": "DivIcon",
+        "_html": "　"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174652,
+          35.517419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.17263,
+          35.515828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174191,
+          35.515474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ATM",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173472,
+          35.515605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172635,
+          35.515828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174196,
+          35.515487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.17264,
+          35.515832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174201,
+          35.515452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ATM",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173483,
+          35.515609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172635,
+          35.515828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172642,
+          35.515832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ATM",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.173474,
+          35.515561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.17263,
+          35.515815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "funsui",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.17263,
+          35.515828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "共通教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174196,
+          35.515487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "野球場",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.169956,
+          35.510824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "工学部棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172499,
+          35.51612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172637,
+          35.515828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ATM",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.17349,
+          35.515618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "噴水",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.172603,
+          35.515828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "鳥取帝国教育棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.174169,
+          35.515496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "鳥取大学農学部棟",
+        "_markerType": "Icon",
+        "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.17182,
+          35.515382
+        ]
+      }
+    }
+  ]
+}

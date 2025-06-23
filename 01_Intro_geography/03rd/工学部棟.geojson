@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "merged",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "工学部棟", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.172442, 35.516354 ] } },
+{ "type": "Feature", "properties": { "name": "工学部棟", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.172431, 35.516622 ] } },
+{ "type": "Feature", "properties": { "name": "工学部棟", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.172415, 35.516657 ] } },
+{ "type": "Feature", "properties": { "name": "工学部棟", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.172453, 35.516531 ] } },
+{ "type": "Feature", "properties": { "name": "工学部棟", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.172499, 35.51612 ] } }
+]
+}

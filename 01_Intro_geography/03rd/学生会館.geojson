@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "merged",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "学食", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.173252, 35.514791 ] } },
+{ "type": "Feature", "properties": { "name": "学食", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.173284, 35.514797 ] } },
+{ "type": "Feature", "properties": { "name": "学生会館", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.173595, 35.514863 ] } },
+{ "type": "Feature", "properties": { "name": "学生会館", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.173332, 35.514758 ] } },
+{ "type": "Feature", "properties": { "name": "生協", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/081.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.173531, 35.514791 ] } }
+]
+}

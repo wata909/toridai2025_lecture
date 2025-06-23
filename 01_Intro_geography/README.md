@@ -1,0 +1,2 @@
+# Intro_geography_toridai2025
+地理学概論用レポジトリ

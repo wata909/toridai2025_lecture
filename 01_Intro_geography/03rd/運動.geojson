@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "merged",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "球場", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.169906, 35.511071 ] } },
+{ "type": "Feature", "properties": { "name": "第一体育館", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.174582, 35.514544 ] } },
+{ "type": "Feature", "properties": { "name": "野球場", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.169956, 35.510824 ] } },
+{ "type": "Feature", "properties": { "name": "来週大会", "_markerType": "Icon", "_iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/080.png", "_iconSize": [ 20, 20 ], "_iconAnchor": [ 10, 10 ] }, "geometry": { "type": "Point", "coordinates": [ 134.174781, 35.514701 ] } }
+]
+}
