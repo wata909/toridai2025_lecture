@@ -1,14 +1,10 @@
 
 <!DOCTYPE html>
 <meta charset="utf-8">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@jasondavies">
-<meta property="og:title" content="Rotate the World">
-<meta property="og:description" content="Interactive geographic projections.">
-<meta property="og:image" content="https://www.jasondavies.com/maps/rotate/full.png">
-<title>Rotate the World</title>
+<meta property="og:title" content="地球儀回転デモ">
+<title>地球儀回転デモ</title>
 <style>
-@import url(../maps.css);
+@import url(maps.css);
 
 #map {
   width: 1000px;
@@ -58,10 +54,8 @@
 
 </style>
 
-<p class="breadcrumbs"><a href="http://www.jasondavies.com/">Jason Davies</a> → <a href="../">Maps</a>
-
 <div id="map">
-  <h1>Rotate the World</h1>
+  <h1>地球儀回転デモ</h1>
 </div>
 <p class="caption">Drag to rotate the world.  Scroll or pinch to zoom.
 
@@ -69,8 +63,6 @@
   <p><a href="http://d3js.org">D3</a>’s geographic projections allow features to be rotated about <a href="http://bl.ocks.org/mbostock/4282586">three axes</a>.
   The three angles used are called <a href="http://en.wikipedia.org/wiki/Euler_angles">Euler angles</a>, and in D3 they specify the following sequence of rotations:
 </div>
-
-<div id="rotations"></div>
 
 
 <script src="d3.min.js"></script>
