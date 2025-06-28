@@ -1,71 +1,73 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>回転する地球デモ</title>
-  <!-- 必要ライブラリ -->
-  <script src="d3.min.js"></script>
-  <script src="d3.geo.projection.min.js"></script>
-  <script src="app.min.js"></script>  <!-- d3.geo.zoom プラグインを含む -->
-  <script src="topojson.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rotate the World デモ</title>
   <style>
-    body { margin:0; overflow:hidden; background:#000; }
-    svg { display:block; cursor:grab; }
-    svg:active { cursor:grabbing; }
-    .sphere { fill: #203050; }
-    .land { fill: #0a0; stroke: none; }
-    .graticule { fill: none; stroke: rgba(255,255,255,0.2); stroke-width: 0.5px; }
+    body { margin: 0; background: #000; overflow: hidden; }
+    canvas { cursor: move; display: block; }
+    path.sphere { fill: #000; }
+    path.land { fill: #7f7; }
+    path.graticule { fill: none; stroke: #777; stroke-width: .5px; stroke-opacity: .5; }
+    footer { position: absolute; bottom: 5px; left: 5px; color: #fff; font-size: 12px; }
+    footer a { color: #0bf; text-decoration: none; }
   </style>
 </head>
 <body>
-  <svg id="map"></svg>
+  <script src="d3.min.js"></script>
+  <script src="d3.geo.projection.min.js"></script>
+  <script src="topojson.min.js"></script>
+  <script src="app.min.js"></script>
   <script>
-    const width = window.innerWidth;
-    const height = window.innerHeight;
-    const projection = d3.geoOrthographic()
-      .scale(height / 2.1)
-      .translate([width / 2, height / 2])
-      .clipAngle(90);
-    const path = d3.geoPath().projection(projection);
-    const graticule = d3.geoGraticule();
+    // ビューポートサイズを取得
+    var width = window.innerWidth, height = window.innerHeight;
 
-    const svg = d3.select('#map')
-      .attr('width', width)
-      .attr('height', height);
-    const g = svg.append('g');
+    // Orthographic 投影の設定
+    var projection = d3.geoOrthographic()
+        .scale((Math.min(width, height) / 2) - 10)
+        .translate([width / 2, height / 2])
+        .clipAngle(90);
 
-    // 背景の球体
-    g.append('path')
-      .datum({ type: 'Sphere' })
-      .attr('class', 'sphere')
-      .attr('d', path);
+    var canvas = d3.select("body").append("canvas")
+        .attr("width", width)
+        .attr("height", height)
+        .node();
+    var context = canvas.getContext("2d");
+    var path = d3.geoPath()
+        .projection(projection)
+        .context(context);
 
-    // 経緯線
-    g.append('path')
-      .datum(graticule())
-      .attr('class', 'graticule')
-      .attr('d', path);
+    // 球体と経緯線
+    var sphere = {type: "Sphere"};
+    var graticule = d3.geoGraticule();
 
-    // 地物データ読み込みと描画
-    topojson = topojson || window.topojson;
-    d3.json('https://unpkg.com/world-atlas@2.0.2/world/110m.json').then(world => {
-      const land = topojson.feature(world, world.objects.land);
-      g.append('path')
-        .datum(land)
-        .attr('class', 'land')
-        .attr('d', path);
+    // 描画関数
+    function render() {
+      context.clearRect(0, 0, width, height);
+      context.beginPath(); path(sphere); context.fillStyle = '#000'; context.fill();
+      context.beginPath(); path(graticule()); context.strokeStyle = '#777'; context.lineWidth = 0.5; context.stroke();
+      context.beginPath(); path(land); context.fillStyle = '#7f7'; context.fill();
+    }
 
-      // ドラッグによる回転（ズーム禁止）
-      svg.call(
-        d3.geo.zoom()
-          .projection(projection)
-          .scaleExtent([projection.scale(), projection.scale()])
-          .on('zoom', () => {
-            g.selectAll('path').attr('d', path);
-          })
-      );
-    }).catch(err => console.error('読み込みエラー:', err));
+    // 地理データ読み込み
+    var land;
+    d3.json('world-110m.json').then(function(world) {
+      land = topojson.feature(world, world.objects.land);
+      render();
+    });
+
+    // ドラッグによる回転有効化
+    d3.geoZoom().projection(projection).on('zoom', render)(canvas);
+
+    // リサイズ対応
+    window.addEventListener('resize', function() {
+      width = window.innerWidth; height = window.innerHeight;
+      projection.translate([width/2, height/2]);
+      canvas.width = width; canvas.height = height;
+      render();
+    });
   </script>
+  <footer>出典：<a href="https://www.jasondavies.com/maps/rotate/" target="_blank">Jason Davies : Maps : Rotate the World</a></footer>
 </body>
 </html>
