@@ -1,191 +1,79 @@
+
 <!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>回転する地球デモ</title>
-  <style>
-    body { 
-      margin: 0; 
-      background: #000; 
-      overflow: hidden; 
-      font-family: Georgia, serif;
-    }
-    canvas { 
-      cursor: move; 
-      display: block; 
-    }
-    .footer { 
-      position: absolute; 
-      bottom: 10px; 
-      left: 10px; 
-      color: #fff; 
-      font-size: 12px; 
-    }
-    .footer a { 
-      color: #0bf; 
-      text-decoration: none; 
-    }
-    .footer a:hover { 
-      text-decoration: underline; 
-    }
-  </style>
-</head>
-<body>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.27/topojson.min.js"></script>
-  <script>
-    // ビューポートサイズを取得
-    var width = window.innerWidth, height = window.innerHeight;
+<meta charset="utf-8">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@jasondavies">
+<meta property="og:title" content="Rotate the World">
+<meta property="og:description" content="Interactive geographic projections.">
+<meta property="og:image" content="https://www.jasondavies.com/maps/rotate/full.png">
+<title>Rotate the World</title>
+<style>
+@import url(../maps.css);
 
-    // Orthographic投影の設定
-    var projection = d3.geo.orthographic()
-        .scale((Math.min(width, height) / 2) - 10)
-        .translate([width / 2, height / 2])
-        .clipAngle(90);
+#map {
+  width: 1000px;
+  margin: 0 auto;
+}
 
-    var canvas = d3.select("body").append("canvas")
-        .attr("width", width)
-        .attr("height", height)
-        .node();
-    var context = canvas.getContext("2d");
-    var path = d3.geo.path()
-        .projection(projection)
-        .context(context);
+#map h1 {
+  position: absolute;
+  width: 1000px;
+}
 
-    // 球体と経緯線
-    var sphere = {type: "Sphere"};
-    var graticule = d3.geo.graticule();
+.foreground {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1px;
+  pointer-events: all;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+}
 
-    // 描画関数
-    function render() {
-      context.clearRect(0, 0, width, height);
-      
-      // 球体（背景）
-      context.beginPath(); 
-      path(sphere); 
-      context.fillStyle = '#000'; 
-      context.fill();
-      
-      // 経緯線
-      context.beginPath(); 
-      path(graticule()); 
-      context.strokeStyle = '#777'; 
-      context.lineWidth = 0.5; 
-      context.stroke();
-      
-      // 陸地
-      if (land) {
-        context.beginPath(); 
-        path(land); 
-        context.fillStyle = '#7f7'; 
-        context.fill();
-      }
-    }
+.foreground.zooming {
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+}
 
-    // 地理データ読み込み
-    var land;
-    
-    // 簡単な世界地図データを使用（TopoJSONファイルの代わり）
-    var worldData = {
-      "type": "FeatureCollection",
-      "features": [
-        {
-          "type": "Feature",
-          "geometry": {
-            "type": "Polygon",
-            "coordinates": [[
-              [-74, 40.7],
-              [-74, 40.8],
-              [-73.9, 40.8],
-              [-73.9, 40.7],
-              [-74, 40.7]
-            ]]
-          }
-        }
-      ]
-    };
+.graticule {
+  fill: none;
+  stroke: #636B62;
+  stroke-width: .5px;
+  stroke-dasharray: 2,2;
+}
 
-    // 実際の世界地図データをロード
-    d3.json("./land-110m.json", function(error, world) {
-      if (error) {
-        console.log("世界地図データの読み込みに失敗しました");
-        // フォールバック用の簡単な陸地データ
-        land = {
-          type: "FeatureCollection",
-          features: [
-            {
-              type: "Feature",
-              geometry: {
-                type: "Polygon",
-                coordinates: [[
-                  [0, 0], [10, 0], [10, 10], [0, 10], [0, 0]
-                ]]
-              }
-            }
-          ]
-        };
-      } else {
-        land = topojson.feature(world, world.objects.land);
-      }
-      render();
-    });
+.land {
+  fill: #69D2E7;
+  stroke: none;
+}
 
-    // ドラッグによる回転機能
-    var λ = d3.scale.linear()
-        .domain([0, width])
-        .range([-180, 180]);
+.mesh {
+  stroke: #50576A;
+  stroke-width: .5px;
+  fill: none;
+}
 
-    var φ = d3.scale.linear()
-        .domain([0, height])
-        .range([90, -90]);
+.point {
+  fill: #f00;
+}
 
-    var drag = d3.behavior.drag()
-        .on("drag", function() {
-          var rotate = projection.rotate();
-          var k = 75 / projection.scale();
-          projection.rotate([
-            rotate[0] + d3.event.dx * k,
-            rotate[1] - d3.event.dy * k
-          ]);
-          render();
-        });
+</style>
 
-    d3.select(canvas).call(drag);
+<p class="breadcrumbs"><a href="http://www.jasondavies.com/">Jason Davies</a> → <a href="../">Maps</a>
 
-    // 自動回転（オプション）
-    var autoRotate = true;
-    d3.timer(function() {
-      if (autoRotate) {
-        var rotate = projection.rotate();
-        projection.rotate([rotate[0] + 0.2, rotate[1]]);
-        render();
-      }
-    });
+<div id="map">
+  <h1>Rotate the World</h1>
+</div>
+<p class="caption">Drag to rotate the world.  Scroll or pinch to zoom.
 
-    // クリックで自動回転の切り替え
-    d3.select(canvas).on("click", function() {
-      autoRotate = !autoRotate;
-    });
+<div class="wrapper">
+  <p><a href="http://d3js.org">D3</a>’s geographic projections allow features to be rotated about <a href="http://bl.ocks.org/mbostock/4282586">three axes</a>.
+  The three angles used are called <a href="http://en.wikipedia.org/wiki/Euler_angles">Euler angles</a>, and in D3 they specify the following sequence of rotations:
+</div>
 
-    // リサイズ対応
-    window.addEventListener('resize', function() {
-      width = window.innerWidth; 
-      height = window.innerHeight;
-      projection
-        .scale((Math.min(width, height) / 2) - 10)
-        .translate([width/2, height/2]);
-      canvas.width = width; 
-      canvas.height = height;
-      render();
-    });
+<div id="rotations"></div>
 
-    // 初期描画
-    render();
-  </script>
-  
-  <div class="footer">
-    出典：<a href="https://www.jasondavies.com/maps/rotate/" target="_blank">Jason Davies : Maps : Rotate the World</a>
-  </div>
-</body>
-</html>
+
+<script src="../../d3.min.js"></script>
+<script src="../d3.geo.projection.min.js"></script>
+<script src="../topojson.min.js"></script>
+<script src="app.min.js"></script>
