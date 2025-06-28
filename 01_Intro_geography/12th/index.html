@@ -1,54 +1,71 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>回転する地球デモ</title>
-  <!-- 注意: ファイルを直接 file:// で開くと fetch が失敗します。HTTP サーバー経由で開いてください -->
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-  <script src="https://unpkg.com/topojson-client@3"></script>
+  <!-- 必要ライブラリ -->
+  <script src="d3.min.js"></script>
+  <script src="d3.geo.projection.min.js"></script>
+  <script src="app.min.js"></script>  <!-- d3.geo.zoom プラグインを含む -->
+  <script src="topojson.min.js"></script>
   <style>
-    body { margin: 0; overflow: hidden; background-color: #000; }
-    canvas { display: block; }
+    body { margin:0; overflow:hidden; background:#000; }
+    svg { display:block; cursor:grab; }
+    svg:active { cursor:grabbing; }
+    .sphere { fill: #203050; }
+    .land { fill: #0a0; stroke: none; }
+    .graticule { fill: none; stroke: rgba(255,255,255,0.2); stroke-width: 0.5px; }
   </style>
 </head>
 <body>
-  <canvas id="globe"></canvas>
+  <svg id="map"></svg>
   <script>
-    // このデモは HTTP(S) サーバー経由で動作します
-    // ローカルで試す場合: ターミナルで "python -m http.server" などを実行し、http://localhost:8000/ にアクセス
-
-    // canvas 初期化
-    const canvas = document.getElementById('globe');
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-    const context = canvas.getContext('2d');
-
-    // 投影設定
+    const width = window.innerWidth;
+    const height = window.innerHeight;
     const projection = d3.geoOrthographic()
-      .scale(window.innerHeight / 2.1)
-      .translate([window.innerWidth / 2, window.innerHeight / 2])
+      .scale(height / 2.1)
+      .translate([width / 2, height / 2])
       .clipAngle(90);
-    const path = d3.geoPath().projection(projection).context(context);
+    const path = d3.geoPath().projection(projection);
     const graticule = d3.geoGraticule();
 
-    // 地物データ読み込み
-    d3.json('https://www.jasondavies.com/maps/world-110m.json')
-      .then(world => {
-        const land = topojson.feature(world, world.objects.land);
-        d3.timer(elapsed => {
-          projection.rotate([elapsed * 0.02, -15]);
-          context.clearRect(0, 0, canvas.width, canvas.height);
-          // 海球体
-          context.beginPath(); path({ type: 'Sphere' }); context.fillStyle = '#203050'; context.fill();
-          // 陸地
-          context.beginPath(); path(land); context.fillStyle = '#0a0'; context.fill();
-          // 経緯線
-          context.beginPath(); path(graticule()); context.strokeStyle = 'rgba(255,255,255,0.2)'; context.lineWidth = 0.5; context.stroke();
-        });
-      })
-      .catch(err => console.error('データ読み込みエラー:', err));
+    const svg = d3.select('#map')
+      .attr('width', width)
+      .attr('height', height);
+    const g = svg.append('g');
+
+    // 背景の球体
+    g.append('path')
+      .datum({ type: 'Sphere' })
+      .attr('class', 'sphere')
+      .attr('d', path);
+
+    // 経緯線
+    g.append('path')
+      .datum(graticule())
+      .attr('class', 'graticule')
+      .attr('d', path);
+
+    // 地物データ読み込みと描画
+    topojson = topojson || window.topojson;
+    d3.json('https://unpkg.com/world-atlas@2.0.2/world/110m.json').then(world => {
+      const land = topojson.feature(world, world.objects.land);
+      g.append('path')
+        .datum(land)
+        .attr('class', 'land')
+        .attr('d', path);
+
+      // ドラッグによる回転（ズーム禁止）
+      svg.call(
+        d3.geo.zoom()
+          .projection(projection)
+          .scaleExtent([projection.scale(), projection.scale()])
+          .on('zoom', () => {
+            g.selectAll('path').attr('d', path);
+          })
+      );
+    }).catch(err => console.error('読み込みエラー:', err));
   </script>
 </body>
 </html>
-
