@@ -107,7 +107,7 @@
     };
 
     // 実際の世界地図データをロード
-    d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/land-110m.json", function(error, world) {
+    d3.json("./land-110m.json", function(error, world) {
       if (error) {
         console.log("世界地図データの読み込みに失敗しました");
         // フォールバック用の簡単な陸地データ
